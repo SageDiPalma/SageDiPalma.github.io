@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sage DiPalma Portfolio - Projects</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Sage DiPalma MITxPRO Portfolio</h1>
+        </header>
+        <nav>
+            <button id="home">Home</button>
+            <button id="projects" class="active">Projects</button>
+        </nav>
+        <div class="project-content">
+            <div class="project project-card" id="project1">
+                <h2>Pacmen Exercise</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at metus quis mauris lacinia fringilla. Integer nec neque nec ligula ultricies tempus. Morbi sit amet lectus a libero vulputate fringilla. Vivamus eget massa nec nulla efficitur tincidunt. Curabitur efficitur sapien ac felis convallis, nec ultricies lorem fermentum. Phasellus id semper enim. Suspendisse potenti. Integer ut erat non magna molestie scelerisque. Cras sodales arcu id ex vestibulum dignissim.</p>
+                <a href="https://github.com/SageDiPalma/Pacmen-Exercise" target="_blank"><i class="fab fa-github"></i> GitHub Repository</a>
+            </div>
+            <div class="project project-card" id="project2">
+                <h2>Eye Tracking Exercise</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at metus quis mauris lacinia fringilla. Integer nec neque nec ligula ultricies tempus. Morbi sit amet lectus a libero vulputate fringilla. Vivamus eget massa nec nulla efficitur tincidunt. Curabitur efficitur sapien ac felis convallis, nec ultricies lorem fermentum. Phasellus id semper enim. Suspendisse potenti. Integer ut erat non magna molestie scelerisque. Cras sodales arcu id ex vestibulum dignissim.</p>
+                <a href="https://github.com/SageDiPalma/Eye-Exercise" target="_blank"><i class="fab fa-github"></i> GitHub Repository</a>
+            </div>
+            <div class="project project-card" id="project3">
+                <h2>Real Time Bus Tracking</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at metus quis mauris lacinia fringilla. Integer nec neque nec ligula ultricies tempus. Morbi sit amet lectus a libero vulputate fringilla. Vivamus eget massa nec nulla efficitur tincidunt. Curabitur efficitur sapien ac felis convallis, nec ultricies lorem fermentum. Phasellus id semper enim. Suspendisse potenti. Integer ut erat non magna molestie scelerisque. Cras sodales arcu id ex vestibulum dignissim.</p>
+                <a href="https://github.com/SageDiPalma/Real-time-Bus-Tracking" target="_blank"><i class="fab fa-github"></i> GitHub Repository</a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('home').onclick = function () {
+            location.href = 'index.html';
+        };
+        document.getElementById('projects').onclick = function () {
+            location.href = 'projects.html';
+        };
+    </script>
+</body>
+</html>
